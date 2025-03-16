@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>Custom</title>
+
+    </head>
+    <body>
+            <h1 style="font-size: 60px; color: aqua;">Custom Website</h1>
+            <button style="color: beige; background-color: black; text-align: center;" onclick="Updatecounter()" type="button">Click Here</button>
+            <p id="s">0</p>
+            <img
+            src="https://github.com/hackclub/dinosaurs/raw/main/smart_dinosaur_docs.png"
+          />
+          <h1>Orpheus</h1>
+            <script>
+                function Updatecounter()
+                {
+                    let element = document.getElementById("s");
+                    let count = parseInt(element.innerHTML);
+                    count =  count + 1;
+                    element.innerHTML = count
+
+                }
+            </script>
+
+    </body>
+</html>
